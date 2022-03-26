@@ -18,6 +18,21 @@ const Main = () => {
         const newCart = [...cart, product]
         setCart(newCart)
     }
+
+    const cagain = () => {
+        const newCart = []
+        setCart(newCart)
+    }
+
+    const c1 = () => {
+        const newCart = [cart[Math.floor(Math.random()*cart.length)]];
+        setCart(newCart)
+    }
+
+    
+
+
+    
     
     return (
         <div className='container col-sm-12 mt-5 d-flex' >
@@ -38,8 +53,8 @@ const Main = () => {
                 }
             </div>
             <div className="">
-                <button className='me-5'> Choose One </button>
-                <button> Choose Again </button>
+                <button className='me-5' onClick={c1}> Choose One </button>
+                <button onClick={cagain}> Choose Again </button>
             </div>
 
             </div>
