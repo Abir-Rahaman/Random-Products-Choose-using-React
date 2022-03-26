@@ -35,7 +35,13 @@ const Main = () => {
                 {
 
                     cart.map(item => <Cart cart={cart} key={item.id} name={item.name }> </Cart>)
+                    
                 }
+            </div>
+            <div className="">
+                
+                <button className='me-5' > Choose One </button>
+                <button> Choose Again </button>
             </div>
 
             </div>

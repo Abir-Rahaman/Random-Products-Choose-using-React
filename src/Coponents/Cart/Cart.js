@@ -9,7 +9,7 @@ const Cart = (props) => {
             
              <h5 className='p-3'> Products Name:  {props.name} </h5>
              </div>
-             
+            
         </div>
     );
 };
