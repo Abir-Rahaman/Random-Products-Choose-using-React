@@ -8,7 +8,6 @@ function App() {
     <div className="App">
 
      <h1 className="text-danger text-center mt-5"> Chunu Powder Point</h1>
-
      <Main></Main>
      <Bonus></Bonus>
 
