@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
 
-     <h1 className="text-danger text-center mt-5"> Chunu Powder Point</h1>
+     <h1 className="text-dnger text-center mt-5"> Chunu Powder Point</h1>
 
      <Main></Main>
 
