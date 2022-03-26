@@ -7,6 +7,7 @@ const Main = () => {
 
     const [products , setProducts] = useState([])
     const [cart , setCart] = useState([])
+
     useEffect (() => {
         fetch("Products.json")
         .then(res => res.json())
@@ -16,13 +17,11 @@ const Main = () => {
     const addToCart = (product) => {
         const newCart = [...cart, product]
         setCart(newCart)
-
-
-   
     }
+    
     return (
         <div className='container col-sm-12 mt-5 d-flex' >
-            <div className=" products col-md-8 ">
+            <div className="products col-md-8 ">
             {
                 products.map(product => <Products key = {product.id} product= {product} addToCart={() =>addToCart(product)}  > </Products> )
             }
@@ -39,8 +38,7 @@ const Main = () => {
                 }
             </div>
             <div className="">
-                
-                <button className='me-5' > Choose One </button>
+                <button className='me-5'> Choose One </button>
                 <button> Choose Again </button>
             </div>
 

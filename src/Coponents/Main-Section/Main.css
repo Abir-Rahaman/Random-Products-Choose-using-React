@@ -8,3 +8,11 @@
     border-radius: 40px;
 
 }
+
+@media only screen and (max-width: 680px) {
+    .products {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-gap: 30px;
+    }
+  }
