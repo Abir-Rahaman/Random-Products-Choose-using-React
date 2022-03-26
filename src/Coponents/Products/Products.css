@@ -1,0 +1,28 @@
+.product{
+    border: 3px solid orangered;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    box-shadow: 10px 15px 15px 0px orangered;
+    
+}
+button{
+    margin-top: 30px;
+    border: none;
+    padding-left : 40px;
+    padding-right :40px;
+    padding-top :10px;
+    padding-bottom :10px;
+    border: 2px solid orangered;
+    border-radius: 40px;
+    font-weight: bolder;
+   
+}
+
+button:hover{
+    background-color: orangered;
+    color: wheat;
+    transition: 2s;
+    font-weight: bolder;
+}
